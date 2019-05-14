@@ -1,0 +1,241 @@
+.text-center {
+  text-align: center;
+}
+.logo {
+  color: rgb(171, 103, 0);
+  font-size: 20px;
+  font-weight: 400;
+}
+#candor-div {
+  background: #f6f6f6;
+}
+#candor-div h2 {
+  color: rgb(161, 96, 0);
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 31px;
+}
+#candor-div a.btn-contact,
+.subscribeform-div button,
+.contact-div .btn-send {
+  border-radius: 1000px;
+  letter-spacing: 1px;
+  border-style: none;
+  background-color: rgb(255, 156, 0);
+  font-size: 12px;
+  padding: 10px 40px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+#candor-div p {
+  margin-top: 40px;
+}
+#candor-div p a {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(21, 21, 21);
+}
+body {
+  text-align: center;
+  background: #fcfcfa;
+  color: #818078;
+  font-family: Futura, sans-serif;
+}
+#aboutus {
+  background: #fff;
+  padding: 4em 0;
+}
+#container {
+  max-width: 90%;  
+  margin: auto;
+}
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: rgb(171, 103, 0);
+  text-align: center;
+  height: 1.5em;
+  font-size: 25px;
+  font-weight: 400;
+}
+.hr-text::before {
+  content: '';
+  background: rgb(171, 103, 0);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.hr-text::after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0 .5em;
+  line-height: 1.5em;
+  color: rgb(171, 103, 0);
+  background-color: #fff;
+}
+.img-circle {
+  border-radius: 50%;
+  width: 233px;
+  margin-top: 30px;
+}
+.features h3 {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(27, 27, 27);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.features p {
+  font-size: 16px;
+  margin: 20px;
+}
+#experience-list {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#experience-list li {
+  width: 100%;
+  text-align: left;
+  display: list-item;
+}
+.subscribe-div,
+.appointments-div {
+  padding-bottom: 40px;
+  padding-top: 60px;
+  background-color: rgb(246, 246, 246);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.subscribe-div .container-fluid {
+  width: 80%;
+}
+.subscribe-div .row {
+  padding: 0;
+  margin: 0;
+}
+.subscribe-div h3 {
+  font-size: 25px;
+  color: rgb(161, 96, 0);
+  font-weight: 400;
+  margin-right: -30px;
+  margin-top: -30px;
+}
+.subscribeform-div {
+  font-size: 16px;
+}
+.subscribeform-div form input {
+  color: rgb(71, 71, 71);
+  font-size: 12px;
+  width: 100%;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid rgb(218, 218, 218)!important;
+  height: 50px;
+  padding-left: 10px;
+}
+.subscribeform-div form button {
+  margin-top: 6px;
+  padding-top: 1px;
+}
+.subscribeform-div label {
+  padding: 11px 0 0 13px;
+  text-transform: initial;
+}
+.contact-div {
+  width: 60%;
+  margin: auto;
+}
+.contact-div h4 {
+  color: rgb(27, 27, 27);
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.contact-div input,
+.contact-div textarea {
+  border: 1px solid rgb(218, 218, 218)!important;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.contact-div p {
+  font-size: 16px;
+  color: rgb(94, 94, 94);
+  font-weight: 400;
+}
+.appointments-div {
+  padding: 80px 0;
+}
+.appointments-div .hr-text::after {
+  background: rgb(246, 246, 246);
+}
+.appointments-div h4 {
+  font-size: 22px;
+  color: rgb(87, 87, 87);
+  font-weight: 400;
+  text-transform: initial;
+  padding: 40px 030px 0;
+}
+.landing #footer {
+  font-size: 16px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  background-color: rgb(22, 22, 22);
+} 
+.landing #footer div {
+  width: 90%;
+  margin: auto;
+}
+#footer ul li {
+  color: #fff;
+  text-transform: initial;
+}
+.landing #footer .powered {
+  color: rgb(137, 137, 137);
+}
+.landing #footer .footer-logo {
+  color: rgb(255, 156, 0);
+}
+:root {
+	--icon-color : rgb(116, 204, 239);
+}
+#header.alt {
+  background: #fff;
+  padding: 10px 30px 70px 30px;
+}
+#header nav > ul {
+  padding-top: 10px;
+}
+
+#header a img {
+  height: 60px;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 7px 0 0 13px;
+  transition: all 200ms;
+  opacity: 0.5;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 75%;
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+  color: rgb(161, 96, 0);
+}
+
+
+
