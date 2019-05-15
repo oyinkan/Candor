@@ -3819,7 +3819,6 @@ input, select, textarea {
 			#footer .copyright li {
 				border-left: solid 1px rgba(255, 255, 255, 0.5);
 				display: inline-block;
-				line-height: 1em;
 				margin-left: 1em;
 				padding-left: 1em;
 			}
@@ -3895,8 +3894,4 @@ input, select, textarea {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-	}
-
-	body.is-mobile.landing #footer {
-		background-color: #fff;
 	}

@@ -79,10 +79,25 @@ body {
   color: rgb(171, 103, 0);
   background-color: #fff;
 }
-.img-circle {
+
+.about-image {
+  height: 250px;
+  background-size: cover!important;
+  width: 250px;
+  background-repeat: no-repeat!important;
   border-radius: 50%;
-  width: 233px;
+  margin: auto;
   margin-top: 30px;
+  margin-bottom: 20px;
+}
+.approach-image {
+  background: url(./../../images/approach.jpg);
+}
+.experience-image {
+  background: url(./../../images/experience.jpg);
+}
+.whyus-image {
+  background: url(./../../images/whyus.jpg);
 }
 .features h3 {
   text-align: center;
@@ -238,4 +253,8 @@ body {
 }
 
 
-
+@media screen and (max-width: 400px) {
+  #header {
+    height: 7.5em;
+  }
+}
