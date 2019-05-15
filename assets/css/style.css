@@ -41,7 +41,8 @@ body {
   color: #818078;
   font-family: Futura, sans-serif;
 }
-#aboutus {
+#aboutus,
+#contactus {
   background: #fff;
   padding: 4em 0;
 }

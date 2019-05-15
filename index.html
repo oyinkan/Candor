@@ -28,7 +28,7 @@
 					</div>
 					<div class="content text-center" id="candor-div">
 						<h2>WELCOME TO CANDOR INTELLIGENT SOLUTIONS</h2>
-						<a href="" class="btn btn-info btn-contact"> Contact Us</a>
+						<a href="#contactus" class="btn btn-info btn-contact contact-anchor-link"> Contact Us</a>
 						<p><a href="tel:713-714-1732">713-714-1732</a></p>
 					</div>
 				</section>
@@ -113,7 +113,7 @@
 			    </div>
 			</section>
 			
-			<section class="wrapper" id="aboutus">
+			<section class="wrapper" id="contactus">
 				<div>
 					<div id="container">
 						<hr class="hr-text" data-content="CONTACT US">
@@ -165,7 +165,7 @@
 				<div>
 					<ul class="copyright">
 						<li class="pull-left">Copyright © 2018 Candor Intelligent Solutions - All Rights Reserved.</li>
-						<li class="pull-right powered">Powered by <a href="https://www.incollabstudio.com" class="footer-logo">Incollab Studio</a></li>
+						<li class="pull-right powered">Powered by <a href="https://www.incollabstudio.com" target="_blank" class="footer-logo">Incollab Studio</a></li>
 					</ul>
 			    </div>
 			</footer>
@@ -180,5 +180,15 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script>
+			$('.contact-anchor-link').click(function(e){
+				e.preventDefault();
+				var target = $($(this).attr('href'));
+				if(target.length){
+					var scrollTo = target.offset().top;
+					$('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+				}
+			});
+        </script>
 	</body>
 </html>
